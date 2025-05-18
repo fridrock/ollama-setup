@@ -13,4 +13,4 @@ ENV OLLAMA_HOST="0.0.0.0"
 EXPOSE 11434
 
 # Start Ollama when the container runs
-CMD ["ollama", "serve"]
+RUN ollama serve
